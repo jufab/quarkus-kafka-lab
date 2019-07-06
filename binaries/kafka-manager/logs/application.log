@@ -1,0 +1,354 @@
+2019-06-02 22:14:03,747 - [WARN] - from application in main 
+kafka-manager/conf/application.conf: 12: play.crypto.secret is deprecated, use play.http.secret.key instead
+
+2019-06-02 22:14:03,975 - [WARN] - from org.apache.curator.retry.ExponentialBackoffRetry in kafka-manager-system-akka.actor.default-dispatcher-3 
+maxRetries too large (100). Pinning to 29
+
+2019-06-02 22:14:04,045 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Starting curator...
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:host.name=10.37.129.2
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.version=1.8.0_192
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.vendor=Oracle Corporation
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.class.path=/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/../conf/:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/kafka-manager.kafka-manager-2.0.0.2-sans-externalized.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scala-lang.scala-library-2.12.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.twirl-api_2.12-1.3.15.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scala-lang.modules.scala-xml_2.12-1.0.6.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-server_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.build-link-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-exceptions-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-netty-utils-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.slf4j.slf4j-api-1.7.25.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.slf4j.jul-to-slf4j-1.7.25.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.slf4j.jcl-over-slf4j-1.7.25.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-streams_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.reactivestreams.reactive-streams-1.0.2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-stream_2.12-2.5.19.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-actor_2.12-2.5.19.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.config-1.3.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scala-lang.modules.scala-java8-compat_2.12-0.8.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-protobuf_2.12-2.5.19.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.ssl-config-core_2.12-0.3.6.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scala-lang.modules.scala-parser-combinators_2.12-1.0.7.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-slf4j_2.12-2.5.19.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.8.11.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/commons-codec.commons-codec-1.11.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-json_2.12-2.6.12.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-functional_2.12-2.6.12.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scala-lang.scala-reflect-2.12.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.typelevel.macro-compat_2.12-1.1.1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/joda-time.joda-time-2.9.9.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.google.guava.guava-23.6.1-jre.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.google.code.findbugs.jsr305-3.0.2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.checkerframework.checker-compat-qual-2.0.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.google.errorprone.error_prone_annotations-2.1.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.google.j2objc.j2objc-annotations-1.1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.codehaus.mojo.animal-sniffer-annotations-1.14.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/io.jsonwebtoken.jjwt-0.7.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/javax.xml.bind.jaxb-api-2.3.1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/javax.activation.javax.activation-api-1.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.commons.commons-lang3-3.6.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/javax.transaction.jta-1.1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/javax.inject.javax.inject-1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.filters-helpers_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-logback_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/ch.qos.logback.logback-classic-1.2.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/ch.qos.logback.logback-core-1.2.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.play.play-akka-http-server_2.12-2.6.21.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-http-core_2.12-10.0.15.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.akka.akka-parsing_2.12-10.0.15.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.webjars-play_2.12-2.6.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.requirejs-2.3.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.webjars-locator-0.32-1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.webjars-locator-core-0.35.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.commons.commons-compress-1.9.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.bootstrap-4.3.1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.jquery-3.3.1-2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.popper.js-1.14.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.backbonejs-1.3.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.underscorejs-1.9.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.dustjs-linkedin-2.7.2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.json-20121008-1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.webjars.octicons-4.3.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.curator.curator-framework-2.12.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.curator.curator-client-2.12.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/jline.jline-0.9.94.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.curator.curator-recipes-2.12.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.json4s.json4s-jackson_2.12-3.6.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.json4s.json4s-core_2.12-3.6.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.json4s.json4s-ast_2.12-3.6.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.json4s.json4s-scalap_2.12-3.6.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.fasterxml.jackson.core.jackson-databind-2.9.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.fasterxml.jackson.core.jackson-core-2.9.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.json4s.json4s-scalaz_2.12-3.6.5.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.scalaz.scalaz-core_2.12-7.2.27.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.slf4j.log4j-over-slf4j-1.7.25.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.adrianhurt.play-bootstrap_2.12-1.4-P26-B4.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.adrianhurt.play-bootstrap-core_2.12-1.4-P26.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.clapper.grizzled-slf4j_2.12-1.3.3.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.kafka.kafka_2.12-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.kafka.kafka-clients-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.github.luben.zstd-jni-1.3.8-1.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.lz4.lz4-java-1.5.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.xerial.snappy.snappy-java-1.1.7.2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.9.8.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/net.sf.jopt-simple.jopt-simple-5.0.4.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.typesafe.scala-logging.scala-logging_2.12-3.9.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.101tec.zkclient-0.11.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.zookeeper.zookeeper-3.4.13.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.yetus.audience-annotations-0.5.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/io.netty.netty-3.10.6.Final.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.kafka.kafka-streams-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.kafka.connect-json-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.apache.kafka.connect-api-2.2.0.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/org.rocksdb.rocksdbjni-5.15.10.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.beachape.enumeratum_2.12-1.5.13.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.beachape.enumeratum-macros_2.12-1.5.9.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.github.ben-manes.caffeine.caffeine-2.6.2.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/com.unboundid.unboundid-ldapsdk-4.0.9.jar:/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager/lib/kafka-manager.kafka-manager-2.0.0.2-assets.jar
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.library.path=/Users/julien/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.io.tmpdir=/var/folders/zm/f_vvzrn11r5_6q76d16nx45h0000gn/T/
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:java.compiler=<NA>
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:os.name=Mac OS X
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:os.arch=x86_64
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:os.version=10.14.5
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:user.name=julien
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:user.home=/Users/julien
+
+2019-06-02 22:14:04,052 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Client environment:user.dir=/Users/julien/Documents/git/testQuarkus/binaries/kafka-manager
+
+2019-06-02 22:14:04,053 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@5492f4ed
+
+2019-06-02 22:14:04,073 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+2019-06-02 22:14:04,075 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+zk=localhost:2181
+
+2019-06-02 22:14:04,076 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+baseZkPath=/kafka-manager
+
+2019-06-02 22:14:04,091 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+
+2019-06-02 22:14:04,097 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100059aee430001, negotiated timeout = 60000
+
+2019-06-02 22:14:04,143 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Started actor akka://kafka-manager-system/user/kafka-manager
+
+2019-06-02 22:14:04,143 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+
+2019-06-02 22:14:04,143 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Starting delete clusters path cache...
+
+2019-06-02 22:14:04,143 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Starting delete clusters path cache...
+
+2019-06-02 22:14:04,150 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Starting kafka manager path cache...
+
+2019-06-02 22:14:04,150 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Adding kafka manager path cache listener...
+
+2019-06-02 22:14:04,150 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Scheduling updater for 10 seconds
+
+2019-06-02 22:14:04,152 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Adding kafka manager path cache listener...
+
+2019-06-02 22:14:04,297 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2019-06-02 22:14:04,831 - [INFO] - from play.core.server.AkkaHttpServer in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2019-06-02 22:14:05,175 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:14:15,171 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:14:25,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:14:35,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:14:45,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:14:55,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:15:05,171 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:15:15,170 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:15:25,171 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:15:35,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:15:45,171 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:15:55,170 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:16:05,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:16:15,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:16:25,170 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:16:35,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:16:45,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:16:55,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:17:05,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:17:15,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:17:25,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:17:35,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:17:45,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:17:55,169 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:18:05,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:18:15,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:18:25,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:18:35,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:18:45,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:18:55,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:19:05,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:19:15,168 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:19:25,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:19:35,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:19:45,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:19:55,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:20:05,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:20:15,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:20:25,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:20:35,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:20:45,167 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:20:55,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:21:05,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:21:15,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:21:25,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:21:35,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:21:45,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:21:55,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:22:05,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:22:15,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:22:25,166 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:22:35,163 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:22:45,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:22:55,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:23:05,163 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:23:15,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:23:25,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:23:35,165 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:23:45,164 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:23:55,164 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:24:05,164 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:24:15,164 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:24:25,163 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:24:35,164 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:24:45,162 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:24:55,162 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:25:05,162 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:25:15,162 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:25:25,162 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:25:35,163 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2019-06-02 22:25:45,163 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2019-06-02 22:25:52,475 - [INFO] - from play.core.server.AkkaHttpServer in Thread-5 
+Stopping server...
+
+2019-06-02 22:25:52,494 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Shutting down kafka manager
+
+2019-06-02 22:25:52,500 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Stopped actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+
+2019-06-02 22:25:52,500 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Removing delete clusters path cache listener...
+
+2019-06-02 22:25:52,501 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Shutting down delete clusters path cache...
+
+2019-06-02 22:25:52,503 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Stopped actor akka://kafka-manager-system/user/kafka-manager
+
+2019-06-02 22:25:52,503 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Removing kafka manager path cache listener...
+
+2019-06-02 22:25:52,504 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Shutting down long running executor...
+
+2019-06-02 22:25:52,504 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Shutting down kafka manager path cache...
+
+2019-06-02 22:25:52,504 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Shutting down delete clusters path cache...
+
+2019-06-02 22:25:52,505 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Shutting down curator...
+
+2019-06-02 22:25:52,508 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Session: 0x100059aee430001 closed
+
+2019-06-02 22:25:52,508 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-EventThread 
+EventThread shut down for session: 0x100059aee430001
+
